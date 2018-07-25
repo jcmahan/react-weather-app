@@ -1,11 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+import Titles from './Components/Titles';
+import Form from './Components/Form';
+import Weather from './Components/Weather';
 
 class App extends React.Component {
   render() {
     return(
       <div> 
-        <h1>Yo!</h1>
-        <p>Hello World!</p>
+        <Titles />
+        <Form />
+        <Weather />
       </div>
     );
   }
